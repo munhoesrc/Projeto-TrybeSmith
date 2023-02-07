@@ -11,3 +11,19 @@ export interface IProductList extends IProduct {
   id: number,
   orderId: number | null,
 }
+
+export interface IUser {
+  username: string,
+  vocation: string,
+  level: number,
+  password: string,
+}
+
+export interface IToken {
+  token: string,
+}
+
+export interface Payload {
+  id: number,
+  username: string,
+}
